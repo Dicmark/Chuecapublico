@@ -1,0 +1,70 @@
+/* BARRA NAVEGACION */
+
+.container-fluid, #datos{
+  margin: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: rgb(56,20,116);
+  background-color: rgba(56,20,116,0.1);
+  padding: 0;
+}
+
+i, h4{
+  color: rgb(56,20,116);
+}
+
+#lista a{
+  list-style-type: none;
+  color: black;
+  font-size: 14px;
+}
+
+div a img {
+  width: 100px;
+
+}
+
+.btn{
+  position: relative;
+  left:18%;
+  color:#343A40;
+  border: solid #343A40 1px;
+
+}
+#buttonMas{
+  width:50px;
+  margin-top:20px;
+  height: 50px;
+  border-radius: 50%;
+  border: solid #756446 1px;
+  box-shadow:#756446;
+  color:#756446;
+}
+.card-img{
+  height:100%;
+}
+#btnFav{
+  position:absolute;
+  border-radius:50%;
+  border-color: white;
+  margin-left:60%;
+  margin-top:10px;
+
+}
+#addCarro{
+  text-decoration:none;
+  font-size:14px;
+  margin-left:50%;
+  margin-bottom:10px;
+}
+
+
+/* FOOTER */
+ion-icon{
+  width: 30px;
+  height: 30px;
+}
+.color{
+  background-color: rgb(56,20,116) !important;
+  color: white !important;
+}

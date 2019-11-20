@@ -1,0 +1,63 @@
+/* BARRA NAVEGACION */
+
+.container-fluid, #datos{
+  margin: 10px;   
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: rgb(56,20,116);
+  background-color: rgba(56,20,116,0.1);
+  padding: 0;
+}
+
+i, h4{
+  color: rgb(56,20,116);
+}
+
+#lista a{
+  list-style-type: none;
+  color: black;
+  font-size: 14px;
+}
+
+div a img {
+  width: 100px;
+
+}
+ion-icon{
+  width: 30px;
+  height: 30px;
+}
+/*color del borde del boton*/
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,102,203);
+}
+
+
+.cart_anchor{
+  float:right;
+  vertical-align:top;
+  /* background: url('images/cart-icon.png') no-repeat center center / 100% auto; */
+  width: 50px;
+  height: 50px;
+  margin-bottom: 50px;
+}
+a{
+  list-style-type: none;
+
+}
+img{
+  width: 200px;
+  margin-top: 20px;
+}
+/* .card-bodyprueba{
+  display:inline-block;
+  position:relative;
+}
+.card-bodyprueba a{
+position: absolute;
+bottom:1em;
+right:4em;
+color: black;
+text-transform:uppercase;
+
+} */
