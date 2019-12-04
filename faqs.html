@@ -13,51 +13,47 @@
 
  <!-- BARRA NAVEGACION  -->
 
-<header class="container-fluid text-center">
-        <nav class="navbar contenedor-navegacion navbar-expand-sm ">
-            <div class="row ">
-                <!-- Brand -->
-                <div class="logo col-lg-3 col-md-3 col-sm-12">
-                    <a class="navbar-brand" href="home.html">
-                      <img src="img/Chueca.png" alt="" ></a>
-                </div>
-                <!-- Links -->
-                <div class="lista-nav col-lg-9 col-md-9 col-sm-12 align-self-center">
-                    <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#lista">
-                        <ion-icon name="menu"></ion-icon>
-                    </button>
-                    <div class="pos-f-t">
-                        <div class="collapse navbar-collapse" id="lista">
-                          <ul class="navbar-nav">
-                              <li class="nav-item">
-                                  <a class="nav-link" href="about.html"><i>Sobre Chueca</i></a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="registro.html"><i>Registro</i></a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="perfilUsuario.html"><i>Perfil</i></a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="productos.html"><i>Productos</i></a>
-                                </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="carrito.html"><i>Carrito</i></a>
-                              </li>
-                              <li class="nav-item">
-                                  <a class="nav-link" href="faqs.html"><i>Preguntas Frecuentes</i></a>
-                              </li>
-                          </ul>
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light " style="border-bottom: 3px solid rgb(56,20,116);">
+    
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">
+        <img src="../img/chueca-copia.png"  width="180" alt="">
+        </a>
+    </nav>
 
-      </header>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target ="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav nav-around mr-auto ml-5" style="font-size: 24px; width:max-content; color: rgb(56,20,116);">
+        <li class="nav-item " active>
+            <a href="home.html" class="nav-link">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" active>
+            <a href="carrito.html" class="nav-link">Carrito<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" active>
+            <a href="about.html" class="nav-link">Sobre Chueca <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" active>
+            <a href="faqs.html" class="nav-link">Dudas<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" active>
+            <a href="productos.html" class="nav-link">Productos <span class="sr-only">(current)</span></a>
+        </li>
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0 ml-5">
+        <input class="form-control mr-sm-2" type="search" placeholder="Que buscas?" aria-label="Search">
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+    </div>
+        
+</nav>
 
 <!-- //TITULO -->
-<div class="container">
+<div class="container pb-5">
     <div class="titulo m-3 ">
         <h3>Preguntas Frecuentes</h3>
     </div>
@@ -124,7 +120,7 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo">
                                 <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <button class="btn btn-collapse " type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     Que medios de pago tengo disponibles?
                                 </button>
                                 </h2>
@@ -148,7 +144,7 @@
                         <div class="card">
                             <div class="card-header" id="headingThree">
                                 <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <button class="btn btn-collapse " type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     Donde obtengo informacion de los productos
                                 </button>
                                 </h2>
@@ -170,7 +166,7 @@
                         <div class="card">
                             <div class="card-header" id="headingOne">
                                 <h2 class="mb-0">
-                                <button class="btn btn-link " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                                <button class="btn btn-collapse " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
                                     Como obtengo mi producto?
                                 </button>
                                 </h2>
@@ -195,7 +191,7 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo">
                                 <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <button class="btn btn-collapse " type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     Que costo tiene el envío?
                                 </button>
                                 </h2>
@@ -219,7 +215,7 @@
                         <div class="card">
                             <div class="card-header" id="headingOne">
                                 <h2 class="mb-0">
-                                <button class="btn btn-link " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                                <button class="btn btn-collapse " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
                                     ¿Cúal es el estado de mi pedido?
                                 </button>
                                 </h2>
@@ -240,7 +236,7 @@
                         <div class="card">
                             <div class="card-header" id="headingTwo">
                                 <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <button class="btn btn-collapse " type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     Quiero realizar/informar mi pago en efectivo
                                 </button>
                                 </h2>
@@ -259,7 +255,7 @@
                         <div class="card">
                             <div class="card-header" id="headingThree">
                                 <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <button class="btn btn-collapse " type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                     Que hago en caso de no recibir mi pedido?
                                 </button>
                                 </h2>
@@ -279,22 +275,21 @@
 
    <!-- FOOTER -->
 
-   <footer id='datos' class=" mt-5 pb-3 text-center">
+   <footer id='MainFooter' class="pb-3 text-center bg-light" style="border-top: 3px solid rgb(56,20,116); font-family: 'Gupter', serif;">
         <div class="row ">
-                <div id='redes' class="col-lg-6 col-md-6 col-sm-12 mt-3">
-                        <h4>Seguinos en nuestras redes:</h4><br>
-                        <ion-icon name="logo-facebook"></ion-icon>
-                        <ion-icon name="logo-instagram"></ion-icon>
-                        <ion-icon name="logo-pinterest"></ion-icon>
-                    </div>
-                    <div id='direccion' class="col-lg-6 col-md-6 col-sm-12 mt-3">
-                        <h4>Donde estamos</h4><br>
-                        <strong>Direccion:</strong> Neuquen 1565, Las Heras, Mendoza<br>
-                        <strong>Telefono:</strong> 261-4309797 <br>
-                    </div>
+          <div id='redes' class="col-lg-6 col-md-6 col-sm-12 mt-3">
+            <h4 style="color: rgb(56,20,116)">Seguinos en nuestras redes:</h4><br>
+            <ion-icon name="logo-facebook" size = "large"></ion-icon>
+            <ion-icon name="logo-instagram" size = "large"></ion-icon>
+            <ion-icon name="logo-pinterest" size = "large"></ion-icon>
+          </div>
+          <div id='direccion' class="col-lg-6 col-md-6 col-sm-12 mt-3">
+            <h4 style="color: rgb(56,20,116)">Donde estamos</h4><br>
+            <strong>Direccion:</strong> Neuquen 1565, Las Heras, Mendoza<br>
+            <strong>Telefono:</strong> 261-4309797 <br>
+          </div>
         </div>
-    </footer>
-
+      </footer>
 </div>
 
 
