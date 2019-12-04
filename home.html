@@ -7,84 +7,63 @@
 <link rel="stylesheet" href="css/style.css">
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- FUENTE -->
+<link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
 <title>Chueca</title>
 </head>
 
 <body>
 
-
+<div class="container-fluid p-0">
   <!-- BARRA NAVEGACION  -->
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light " style="border-bottom: 3px solid rgb(56,20,116);">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="border-bottom: 3px solid rgb(56,20,116);">
     
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="home.html">
-        <img src="../img/chueca-copia.png"  width="180" alt="">
-      </a>
-    </nav>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target ="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav nav-around mr-auto ml-5" style="font-size: 24px; width:max-content; color: rgb(56,20,116);">
-        <li class="nav-item " active>
-          <a href="home.html" class="nav-link">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item" active>
-          <a href="carrito.html" class="nav-link">Carrito<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item" active>
-          <a href="about.html" class="nav-link">Sobre Chueca <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item" active>
-          <a href="faqs.html" class="nav-link">Dudas<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item" active>
-            <a href="productos.html" class="nav-link">Productos <span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
-
-      <form class="form-inline my-2 my-lg-0 ml-5">
-        <input class="form-control mr-sm-2" type="search" placeholder="Que buscas?" aria-label="Search">
-        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
-      </form>
-    </div>
-    
-  </nav>
-
-
-  <div id='carusel' class="container-fluid">
-    <div class="row">
-
-    <!-- CARROUSEL TEMPORADA -->
-
-    <section id='carrousel' class="col-4 offset-1">
-      <h2 class="titulo-temporada">PRIMAVERA - VERANO</h2>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-              <img src="img/img1.jpg" class="d-block w-100" alt="imagen1">
-          </div>
-          <div class="carousel-item">
-            <img src="img/img2.jpg" class="d-block w-100" alt="imagen2">
-          </div>
-          <div class="carousel-item">
-            <img src="img/img3.jpg" class="d-block w-100" alt="imagen3">
-          </div>
-          <div class="carousel-item">
-            <img src="img/img4.jpg" class="d-block w-100" alt="imagen3">
-          </div>
-        </div>
+      <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">
+          <img src="../img/chueca-copia.png"  width="180" alt="">
+        </a>
+      </nav>
+  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target ="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav nav-around mr-auto ml-5" style="font-size: 24px; width:max-content; color: rgb(56,20,116);">
+          <li class="nav-item " active>
+            <a href="home.html" class="nav-link">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item" active>
+            <a href="carrito.html" class="nav-link">Carrito<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item" active>
+            <a href="about.html" class="nav-link">Sobre Chueca <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item" active>
+            <a href="faqs.html" class="nav-link">Dudas<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item" active>
+              <a href="productos.html" class="nav-link">Productos <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+  
+        <form class="form-inline my-2 my-lg-0 ml-5">
+          <input class="form-control mr-sm-2" type="search" placeholder="Que buscas?" aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
       </div>
-    </section>
-    <!-- CARROUSEL DESCUENTOS-->
+      
+    </nav>
+</div> 
 
 
-    <section id='carrousel' class="col-4 offset-2">
-        <h2 class="titulo-temporada">PROMOCIONES</h2>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <!-- CARRUSEL TEMPORADA -->
+<div class="container-fluid">  
+  <div class="row">
+    <div class="seccionPrincipal col-12 ">
+      <h2 class="titulo-temporada col-6 align-self-center">PRIMAVERA VERANO</h2>
+      <section id='carruselTemporada' class="col-6" >
+        <div class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="img/img1.jpg" class="d-block w-100" alt="imagen1">
@@ -101,21 +80,44 @@
           </div>
         </div>
       </section>
-    </div> 
+    </div>
   </div>
+</div>
 
+
+  <!-- CARRUSEL DESCUENTOS-->
+
+<div class="container-fluid">  
+  <div class="row">
+    <div class="seccionDescuentos">
+      <section id='carruselDescuentos' class="col-6">
+        <div class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/promo1.jpg" class="d-block w-100" alt="imagen1">
+            </div>
+            <div class="carousel-item">
+              <img src="img/promo2.jpg" class="d-block w-100" alt="imagen2">
+            </div>
+          </div>
+        </div>
+      </section>
+      <h2 class="titulo-descuentos col-6 align-self-center">PROMOCIONES</h2> 
+    </div>
+  </div>  
+</div>
 
 
   <!-- CONTACTO -->
-  <div id='contacto' class="container-fluid bg-light ">
-    <section class="mb-5">
-        <h2 class="mb-3 text-center">CONTACTO</h2>
+  <div id='contacto' class="container-fluid">
+    <section class="pb-5">
+        <h2 class="mb-3 text-center titulo-contacto">CONTACTO</h2>
         <form>
           <div class="form align-items-center">
             <div class="form-row">
               <div class="col-auto">
                 <label for="validationServer02">MENSAJE</label>
-                <textarea id="validationMensaje" name="mensaje" rows="8" cols="80" class="form-control" placeholder="Dejanos tu mensaje aqui" required></textarea>
+                <textarea id="validationMensaje" name="mensaje" rows="5" cols="80" class="form-control" placeholder="Dejanos tu mensaje aqui" required></textarea>
               </div>
             </div>
             <div class="form-row">
@@ -132,7 +134,7 @@
             </div>
             <div class="row mt-3 text-center">
               <div class="col-12">
-                <button type="submit" name="button" class="btn color">Enviar</button>
+                <button type="submit" name="button" class="btn color-boton">Enviar</button>
               </div>
             </div>
           </div>    
@@ -142,24 +144,25 @@
 
 <!-- FOOTER -->
 
-<footer id='datos' class=" mt-5 pb-3 text-center bg-light" style="border-top: 3px solid rgb(56,20,116)">
-  <div class="row ">
-    <div id='redes' class="col-lg-6 col-md-6 col-sm-12 mt-3">
-      <h4 style="color: rgb(56,20,116)">Seguinos en nuestras redes:</h4><br>
-      <ion-icon name="logo-facebook" size = "large"></ion-icon>
-      <ion-icon name="logo-instagram" size = "large"></ion-icon>
-      <ion-icon name="logo-pinterest" size = "large"></ion-icon>
+<footer id='MainFooter' class="pb-3 text-center bg-light" style="border-top: 3px solid rgb(56,20,116)">
+    <div class="row ">
+      <div id='redes' class="col-lg-6 col-md-6 col-sm-12 mt-3">
+        <h4 style="color: rgb(56,20,116)">Seguinos en nuestras redes:</h4><br>
+        <ion-icon name="logo-facebook" size = "large"></ion-icon>
+        <ion-icon name="logo-instagram" size = "large"></ion-icon>
+        <ion-icon name="logo-pinterest" size = "large"></ion-icon>
+      </div>
+      <div id='direccion' class="col-lg-6 col-md-6 col-sm-12 mt-3">
+        <h4 style="color: rgb(56,20,116)">Donde estamos</h4><br>
+        <strong>Direccion:</strong> Neuquen 1565, Las Heras, Mendoza<br>
+        <strong>Telefono:</strong> 261-4309797 <br>
+      </div>
     </div>
-    <div id='direccion' class="col-lg-6 col-md-6 col-sm-12 mt-3">
-      <h4 style="color: rgb(56,20,116)">Donde estamos</h4><br>
-      <strong>Direccion:</strong> Neuquen 1565, Las Heras, Mendoza<br>
-      <strong>Telefono:</strong> 261-4309797 <br>
-    </div>
-  </div>
-</footer>
+  </footer>
 
 
 <!-- Optional JavaScript -->
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

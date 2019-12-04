@@ -1,4 +1,9 @@
 /* CUERPO */
+body{
+  font-family: 'Gupter', serif;
+  margin: 0em!important;
+  padding: 0em!important;
+}
 
 ul li{
   list-style-type: none;
@@ -8,46 +13,64 @@ a{
 }
 section img{
   width: 100%;
-
 }
-#carrousel{
+/* PROMOCIONES */
+.seccionPrincipal{
+  background-image: url(../img/fondoPrincipal.jpg);
+  background-color: #cccccc;
+  height: 18em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.titulo-temporada{
+  font-size: 1.5em;
+  color: antiquewhite;  
+  float: left;
+  font-family: 'Gupter', serif;
+}
+#carruselTemporada, #carruselDescuentos{
   margin-top: 20px !important;
   margin-bottom: 20px;
-  width: 30%;
+  float: right;
+  height: 18em;
+}
+/* DESCUENTOS */
+.seccionDescuentos{
+  background-color: floralwhite;
+  height: 18em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.titulo-descuentos{
+  font-size: 1.5em;
+  color:  rgb(56,20,116);  
+  float: left;
+  font-family: 'Gupter', serif;
 }
 
-.color{
+
+/* CONTACTO */
+
+#contacto{
+  font-family: 'Gupter', serif;
+  font-size: 0.8em;
+  border-top: 3px solid rgb(56,20,116)
+}
+
+.titulo-contacto{
+  padding-top: 1em;
+  font-size: 1.6em;
+}
+
+.color-boton{
   background-color: rgb(56,20,116) !important;
   color: white !important;
+  padding-bottom: 1em;
 }
 
-#carusel h2{
-  text-align: center;
-  color: crimson;
-}
-
-body {
-  font-size: 1em;
-}
-
-@include media-breakpoint-up(sm) {
-  body {
-    font-size: 1.2em;
-  }
-}
-
-@include media-breakpoint-up(md) {
-  body {
-    font-size: 1.4em;
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  body {
-    font-size: 1.6em;
-  }
-}
-
-#carusel{
-  background-image: url(../img/fondoPrincipal.jpg);
+/* FOOTER */
+#MainFooter{
+  font-family: 'Gupter', serif;
 }
