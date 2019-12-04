@@ -1,6 +1,6 @@
 h2{
   text-align: center;
-  font-family: 'Baskervville', serif;
+  font-family: 'Gupter', serif;;
 }
 .btn-light{
   background: rgb(56, 20, 116, 0.5);
@@ -33,13 +33,13 @@ h2{
   margin-top: 40px;
 }
 label{
-  font-family: 'Baskervville', serif;
+  font-family: 'Gupter', serif;
 }
 input{
-  font-family: 'Baskervville', serif;
+  font-family: 'Gupter', serif;
 }
 button{
-  font-family: 'Baskervville', serif;
+  font-family: 'Gupter', serif;
 }
 
 
@@ -123,7 +123,7 @@ div a{
 text-decoration: none;
 color: black;
 margin-left: 29%;
-font-family: 'Baskervville', serif;
+font-family: 'Gupter', serif;
 }
 
 div p{
