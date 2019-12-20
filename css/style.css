@@ -14,26 +14,34 @@ a{
 section img{
   width: 100%;
 }
-/* PROMOCIONES */
+/* TEMPORADA */
 .seccionPrincipal{
   background-image: url(../img/fondoPrincipal.jpg);
   background-color: #cccccc;
-  height: 18em;
+  background-position: center center;
+
+  /* Para que la imagen de fondo no se repita */
+
   background-repeat: no-repeat;
+
+  /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+  background-attachment: fixed;
+
+  /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
   background-size: cover;
-  display: flex;
+  
 }
 .titulo-temporada{
   font-size: 1.5em;
   color: antiquewhite;  
-  float: left;
+
   font-family: 'Gupter', serif;
 }
 #carruselTemporada, #carruselDescuentos{
   margin-top: 20px !important;
   margin-bottom: 20px;
-  float: right;
-  height: 18em;
 }
 /* DESCUENTOS */
 .seccionDescuentos{
@@ -49,6 +57,19 @@ section img{
   float: left;
   font-family: 'Gupter', serif;
 }
+
+/* RESPNSIVE */
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
 
 
 /* CONTACTO */
