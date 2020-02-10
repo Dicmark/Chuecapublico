@@ -75,7 +75,7 @@ input{
   justify-content: flex-start;
 }
 #btnDatosPersonales button{
-  background: rgb(56, 20, 116, 0.5);
+  background: rgba(56, 20, 116, 0.5);
   color:white;
   border:none;
 
