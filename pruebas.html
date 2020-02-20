@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../Chuecapublico/css/headerStyle.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- FontAwesone -->
+  <link href="css/css-fontawesome/fontawesome.css" rel="stylesheet">
+  <link href="css/css-fontawesome/brands.css" rel="stylesheet">
+  <link href="css/css-fontawesome/solid.css" rel="stylesheet">
+  <!-- Iconos Google-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    .encabezado{
+      background-color: #EFDBD4;
+    }
+    @media screen and (max-width: 575px) {
+      img{
+        width: 30%;
+      }
+    }
+    @media screen and (max-width: 767px) { 
+      img{
+        width: 30%;
+      } 
+    }
+    @media screen and (max-width: 991px) { 
+      img{
+        width: 30%;
+      } 
+     }
+    @media screen and (max-width: 1199px) {  }
+    
+    /* a {
+    color: inherit;
+    text-decoration: none;
+    } */
+    
+  </style>
+
+
+  <title>Header</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="row encabezado">
+
+      <!-- Buscador -->
+      <div class="col-sm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-inline-flex">
+        <form class="buscador form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2 btn-sm  w-auto" type="search" aria-label="Search">
+          <button class="btn btn-outline-dark btn-sm my-2 my-sm-0 bg-white w-auto" type="submit">Search</button>
+        </form>
+      </div>
+       <!-- Logo -->
+      <div class="col-sm-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="logo" style="position: relative; order: sm-1;">
+          <img src="img/chueca-copia.png" class="img-fluid mx-auto d-block " alt="titulo" style="max-width: 70%; height: auto;"/>
+        </div>
+      </div>
+      <!-- Iconos  -->
+      <div class="col-sm-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 m-auto d-flex justify-content-around">    
+        <a href="/perfilUsuario.html" class="text-decoration-none text-reset ">
+          <i class="material-icons md-30">account_circle</i>
+        </a>
+        <a href="/carrito.html" class="text-decoration-none text-reset">
+          <i class="material-icons md-30">shopping_basket</i>
+        </a>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

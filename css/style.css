@@ -11,10 +11,21 @@ ul li{
 a{
   text-decoration: none;
 }
-section img{
+/* section img{
   width: 100%;
   height: 100%;
+} */
+
+/* HEADER */
+
+col-md-6 {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
 /* SECCION PRINCIPAL */
 .seccionPrincipal{
   background-image: url(../img/fondoPrincipal.jpg);
